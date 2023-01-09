@@ -16,11 +16,9 @@ public class VerificationPage {
 
     public void verifyVerificationPage() {
         codeField.shouldBe(visible);
-        Duration.ofSeconds(15);
     }
     public void verifyErrorNotification() {
         errorNotification.shouldBe(visible);
-        Duration.ofSeconds(15);
     }
 
     public DashboardPage validVerify(String verificationCode) {
